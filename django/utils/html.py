@@ -101,7 +101,7 @@ fix_ampersands = allow_lazy(fix_ampersands, unicode)
 
 def urlize(text, trim_url_limit=None, nofollow=False, autoescape=False):
     """
-    Converts any URLs in text into clickable links.
+    Converts any URLs in text into clickable href links.
 
     Works on http://, https://, www. links and links ending in .org, .net or
     .com. Links can have trailing punctuation (periods, commas, close-parens)
